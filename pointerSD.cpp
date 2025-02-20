@@ -11,7 +11,7 @@ void update(int *a,int *b) {
 
 int main() {
     int a, b;
-    int *pa = &a, *pb = &b;
+    int *pa = &a, *pb = &b; //call the function
     
     scanf("%d %d", &a, &b);
     update(pa, pb);
