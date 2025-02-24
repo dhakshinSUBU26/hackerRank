@@ -9,7 +9,7 @@ string rtrim(const string &);
 
 int main()
 {
-    string n_temp;
+    string n_temp,t;
     getline(cin, n_temp);
 
     int n = stoi(ltrim(rtrim(n_temp)));
